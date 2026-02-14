@@ -1974,7 +1974,7 @@ function enviarPedido() {
   const tipo = document.getElementById("tipo").value;
   const detalle = Object.keys(carrito).map(n => `${n} x${carrito[n]}`).join(", ");
   const msg = `Pedido Cafetería El Abuelo\nCliente: ${nombre}\nTeléfono: ${telefono}\nTipo: ${tipo}\nProductos: ${detalle}\nTotal: $${total} MXN\nDirección: ${dir}\nReferencia: ${ref}\nNotas: ${notas}`;
-  window.open(`https://wa.me/524131012498?text=${encodeURIComponent(msg)}`, "_blank");
+  window.open(`https://wa.me/524613011363?text=${encodeURIComponent(msg)}`, "_blank");
 }
 
 async function descargarFactura() {
